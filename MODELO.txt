@@ -5,5 +5,5 @@ No campo 'vector_model_tfidf' estão armazenadas as representações de cada doc
 
 Desta forma, somente são armazenados os índices e os tfidfs das palavras que aparecem no documento, evitando armazenar um vetor com a maioria de suas entradas zeradas. 
 
-O índice da palavra corresponde a sua posição no vetor de representação dos documento e está mapeado em 'word_index' também salvo (formato {'palavra': índice}).
+O índice da palavra corresponde a sua posição no vetor de representação dos documentos e está mapeado em 'word_index' também salvo (formato {'palavra': índice}).
 Os valores do idf de cada palavra foram salvos para facilitar um possível cálculo do tfidf das palavras da consulta (formato {índice_palavra: idf})  
